@@ -72,7 +72,7 @@ nav>.NavUl>.NavMenuIconClose:hover{
 }
 nav>.NavUl>li{
   margin-left: 20px;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 900;
   color: azure;
   transition: 1s;
@@ -376,6 +376,15 @@ nav>.NavUl>li:hover{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 6px;
     margin-bottom: 10px;
+}
+.ProjectCard>.DetailProject>.techno{
+  font-size: 14px;
+  color: black;
+  font-weight: 800;
+}
+.ProjectCard>.DetailProject>.techno>span{
+  margin-left: 10px;
+  color: #45505b;
 }
 
 .MyAbilities{

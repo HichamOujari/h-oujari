@@ -19,7 +19,7 @@ export default function Home() {
         {name:"PHP", val:80 },
         {name:"ExpressJs", val:70 },
         {name:"ReactJS/NextJS", val:80 },
-        {name:"ReactJS/Expo", val:80 },
+        {name:"React-Native/Expo", val:80 },
         {name:"SprinBoot", val:40 },
         {name:"JAVA", val:80 },
         {name:"ASP.NET", val:50 },
@@ -41,7 +41,8 @@ export default function Home() {
             by:"Oujari Hicham",
             description:"Web application offring the possibility to custom URL Shortener .",
             lien:"https://shorttriq.herokuapp.com/",
-            type:1
+            type:1,
+            techno:"ReactJs - MySQL"
           },
           {
             title:"RandomChat V1.0 (In progress)",
@@ -50,7 +51,8 @@ export default function Home() {
             by:"Oujari Hicham",
             description:"RandomChat is an automated instant messaging website. It connects two users at random, anonymously and without any prior registration requirement.",
             lien:"https://myrandchat.herokuapp.com/",
-            type:1
+            type:1,
+            techno:"ReactJs - Socket.IO - PeerJs"
           },
           {
             title:"Baitaille Navale",
@@ -59,7 +61,8 @@ export default function Home() {
             by:"Oujari Hicham",
             description:"Baitaille Navale is a board game in which two players must place ships on a secret grid and attempt to “hit” the opposing ships. The winner is the one who manages to sink all of the opponent's ships.",
             lien:"https://baitaille-navale.herokuapp.com/",
-            type:1
+            type:1,
+            techno:"PHP - JavaScript - MySQL"
           },
           {
             title:"G-Advisor (Phontom-tech)",
@@ -68,7 +71,8 @@ export default function Home() {
             by:"Oujari Hicham",
             description:"G-Advisor is an desktop inventory management application, for Phantom-Tech (traineeship).",
             lien:"https://g-advisore.vercel.app/",
-            type:3
+            type:3,
+            techno:"ReactJs - ChartJs - MongoDB - Springboot"
           },
           {
             title:"Digital Advisor",
@@ -77,7 +81,8 @@ export default function Home() {
             by:"an internship group",
             description:"Realization of a technical assumption platform and a showcase site(traineeship).",
             lien:"https://digitaladvisor.co.ma/",
-            type:1
+            type:1,
+            techno:"HTML - CSS - JavaScript - MySQl"
           },
         ]
   const descriptions = ["Software Engineering.","Web developer.","Mobile developer.","Desktop Developer.","Graphic Designer."]

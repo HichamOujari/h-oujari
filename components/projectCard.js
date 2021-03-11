@@ -16,6 +16,7 @@ export default class ProjectCard extends Component {
               <p className="title">{this.props.data.title}</p>
               <p className="date">{this.props.data.date} <span>By {this.props.data.by}</span></p>
               <p className="description">{this.props.data.description}</p>
+              <p className="techno">Tools: <span>{this.props.data.techno}</span></p>
           </div>
       </div>
     );
