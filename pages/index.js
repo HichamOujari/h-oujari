@@ -72,7 +72,7 @@ export default function Home() {
             description:"G-Advisor is an desktop inventory management application, for Phantom-Tech (traineeship).",
             lien:"https://g-advisore.vercel.app/",
             type:3,
-            techno:"ReactJs - ChartJs - MongoDB - Springboot"
+            techno:"ReactJs - ChartJs - MySQL - Springboot"
           },
           {
             title:"Digital Advisor",
