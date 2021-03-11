@@ -11,7 +11,7 @@ export default class Contact extends Component {
         <p className="title">Contact <span>Me</span></p>
         <div className="content">
           <div className="infoSec">
-            {listInfo}
+            
           </div>
           <div className="ContactForm">
             <input placeholder="Your Name" required className="inputT" />
