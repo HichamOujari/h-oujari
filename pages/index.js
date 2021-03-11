@@ -104,6 +104,11 @@ export default function Home() {
       <Head>
         <title>HOujari | Oujari Hicham</title>
         <link rel="icon" href="/logo.ico" />
+        <meta name="description" content="Hello! I'M Oujari Hicham. I am a student Software Engineer at Mohammadia school of engineering with more than 2 years of experience as a web developer. My favorite language is Javascript because it offers flexibility, simplicity and the ability to create dynamic web applications, web servers (Node.js), desktop applications (electron), mobile applications (ReactJs / Expo), games (WebGL), IoT (Red Node) etc. I am truly passionate about development, technology and AI because it is the perfect way to build a great future where much of our suffering will be gone."/>
+        <meta name="robots" content="index, archive"/>
+        <link rel="canonical" href="https://h-oujari.vercel.app/"/>
+        <meta name="keywords" content="hicham, oujari, hichamouja, hicham o'j, o'j" />
+        <meta name="author" content="Oujari Hicham"/>
       </Head>
       <Nav/>
       <Header data={descriptions}/>
