@@ -4,10 +4,12 @@ import Header from "../components/header"
 import About from "../components/about"
 import Project from "../components/project"
 import Ability from "../components/ability"
-import Contact from "../components/Contact"
+import Contact from "../components/contact"
 import Footer from "../components/footer"
 
-
+import MailIcon from '@material-ui/icons/Mail';
+import CallIcon from '@material-ui/icons/Call';
+import RoomIcon from '@material-ui/icons/Room';
 
 export default function Home() {
   const skills = [
@@ -82,17 +84,17 @@ export default function Home() {
   const contactMe = [
                   {
                     name:"Location",
-                    icon:0,
+                    icon:<RoomIcon className="ContactIcons" />,
                     val:"14 Street N8 douar haj Driss Meknes, Morocco"
                   },
                   {
                     name:"Email",
-                    icon:1,
+                    icon:<MailIcon className="ContactIcons" />,
                     val:"hichamoujari99@gmail.com"
                   },
                   {
                     name:"Call",
-                    icon:2,
+                    icon:<CallIcon className="ContactIcons" />,
                     val:"+(212) 762-828-251"
                   },
                 ]
