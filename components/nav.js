@@ -17,8 +17,10 @@ export default class Nav extends Component {
             <CloseIcon onClick={menuOpenClose} className="NavMenuIconClose"/>
             <Link href="#"><li onClick={menuOpenClose}>Home</li></Link>
             <Link href="#About"><li onClick={menuOpenClose}>About</li></Link>
-            <Link href="#Projects"><li onClick={menuOpenClose}>My Projects</li></Link>
+            <Link href="#Resume"><li onClick={menuOpenClose}>Resume</li></Link>
             <Link href="#Abilities"><li onClick={menuOpenClose}>My Abilities</li></Link>
+            <Link href="#experiences"><li onClick={menuOpenClose}>My Experiences</li></Link>
+            <Link href="#Projects"><li onClick={menuOpenClose}>My Projects</li></Link>
             <Link href="#Contact"><li onClick={menuOpenClose}>Contact</li></Link>
           </ul>
       </nav>

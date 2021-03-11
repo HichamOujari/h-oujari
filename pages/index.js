@@ -4,8 +4,10 @@ import Header from "../components/header"
 import About from "../components/about"
 import Project from "../components/project"
 import Ability from "../components/ability"
+import Experience from "../components/experience"
 import Contact from "../components/contact"
 import Footer from "../components/footer"
+import Resume from "../components/resume"
 
 import MailIcon from '@material-ui/icons/Mail';
 import CallIcon from '@material-ui/icons/Call';
@@ -35,18 +37,18 @@ export default function Home() {
   }
   const projects = [
           {
-            title:"Short-TriQ V1.0",
-            img:"/shortTriq.png",
-            date:"11 Sep 2020",
-            by:"Oujari Hicham",
-            description:"Web application offring the possibility to custom URL Shortener .",
-            lien:"https://shorttriq.herokuapp.com/",
-            type:1,
-            techno:"ReactJs - MySQL"
+            title:"Digital-Library",
+            img:"/proj/digitalLibrary.png",
+            date:"20 FEV 2021",
+            by:"Group",
+            description:"it is a desktop application of an electronic library, allows to reserve, borrow, buy and deliver books.",
+            lien:"#",
+            type:3,
+            techno:"JAVA/Swing - MySQL"
           },
           {
             title:"RandomChat V1.0 (In progress)",
-            img:"/randomchat.png",
+            img:"/proj/randomchat.png",
             date:"20 JAN 2021",
             by:"Oujari Hicham",
             description:"RandomChat is an automated instant messaging website. It connects two users at random, anonymously and without any prior registration requirement.",
@@ -55,28 +57,28 @@ export default function Home() {
             techno:"ReactJs - Socket.IO - PeerJs"
           },
           {
-            title:"Baitaille Navale",
-            img:"/navale.png",
-            date:"13 March 2019",
-            by:"Oujari Hicham",
-            description:"Baitaille Navale is a board game in which two players must place ships on a secret grid and attempt to “hit” the opposing ships. The winner is the one who manages to sink all of the opponent's ships.",
-            lien:"https://baitaille-navale.herokuapp.com/",
-            type:1,
-            techno:"PHP - JavaScript - MySQL"
-          },
-          {
             title:"G-Advisor (Phontom-tech)",
-            img:"/gadvisor.png",
+            img:"/proj/gadvisor.png",
             date:"13 JAN 2021",
             by:"Oujari Hicham",
-            description:"G-Advisor is an desktop inventory management application, for Phantom-Tech (traineeship).",
+            description:"G-Advisor is a desktop inventory management application, for Phantom-Tech (traineeship).",
             lien:"https://g-advisore.vercel.app/",
             type:3,
             techno:"ReactJs - ChartJs - MySQL - Springboot"
           },
           {
+                  title:"Short-TriQ V1.0",
+                  img:"/proj/shortTriq.png",
+                  date:"11 Sep 2020",
+                  by:"Oujari Hicham",
+                  description:"Web application offring the possibility to custom URL Shortener .",
+                  lien:"https://shorttriq.herokuapp.com/",
+                  type:1,
+                  techno:"ReactJs - MySQL"
+          },
+          {
             title:"Digital Advisor",
-            img:"/digitaladvisor.png",
+            img:"/proj/digitaladvisor.png",
             date:"13 JUIN 2020",
             by:"an internship group",
             description:"Realization of a technical assumption platform and a showcase site(traineeship).",
@@ -84,7 +86,51 @@ export default function Home() {
             type:1,
             techno:"HTML - CSS - JavaScript - MySQl"
           },
+          {
+            title:"Baitaille Navale",
+            img:"/proj/navale.png",
+            date:"13 March 2019",
+            by:"Oujari Hicham",
+            description:"Baitaille Navale is a board game in which two players must place ships on a secret grid and attempt to “hit” the opposing ships. The winner is the one who manages to sink all of the opponent's ships.",
+            lien:"https://baitaille-navale.herokuapp.com/",
+            type:1,
+            techno:"PHP - JavaScript - MySQL"
+          },
+          
         ]
+  const experiences = [
+    {
+      entreprise:"Phontom-tech",
+      image:"./Experiences/phontom-tech.png",
+      date:"JAN 2021",
+      desc:"I had 1 month of work as a senior front end developer in Phantom-Tech Uk"
+    },{
+      entreprise:"Digital-Advisor",
+      image:"./Experiences/digitalAdvisor.png",
+      date:"June 2020",
+      desc:"I had a 1 month internship in Digital-Advisor Casablanca. The internship subject was to create a technical assumption platform and a showcase site"
+    },
+  ]
+  const resumes = [
+    {
+      title:"Mohammadia School of Engineers",
+      periode:"2019-2022",
+      specialite:"Computer science engineering",
+      duree:"3 years - Rabat"
+    },
+    {
+      title:"Preparatory Classes Omar Ibn Khattab",
+      periode:"2017-2019",
+      specialite:"Mathematics & Physics option",
+      duree:"2 years - Meknes"
+    },
+    {
+      title:"el Zitoune high school",
+      periode:"2016-2017",
+      specialite:"Bac Sc.Mathematics A",
+      duree:"1 year - Meknes"
+    }
+  ]
   const descriptions = ["Software Engineering.","Web developer.","Mobile developer.","Desktop Developer.","Graphic Designer."]
   const contactMe = [
                   {
@@ -103,7 +149,6 @@ export default function Home() {
                     val:"+(212) 762-828-251"
                   },
                 ]
-  
   return (
     <div>
       <Head>
@@ -118,8 +163,10 @@ export default function Home() {
       <Nav/>
       <Header data={descriptions}/>
       <About data={SocialMedia}/>
-      <Project data = {projects}/>
+      <Resume data={resumes}/>
       <Ability skills={skills}/>
+      <Experience data={experiences}/>
+      <Project data = {projects}/>
       <Contact data={contactMe}/>
       <Footer data={SocialMedia}/>
     </div>
