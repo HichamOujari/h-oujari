@@ -37,6 +37,15 @@ export default function Home() {
   }
   const projects = [
           {
+            title:"Dustro-app",
+            img:"https://theme-division.com/wp-content/uploads/Dustro-Kit-de-modeles-Elementor-pour-entreprise-de-construction.png",
+            date:"10 MAR 2021",
+            by:"Oujari Hicham",
+            description:"Dustro is a web application,it is an awesome Construction Company website. It is a clean & modern",
+            lien:"https://engineer-hi.vercel.app/",
+            type:1,
+            techno:"NextJs/Strapi - MySQL"
+          },{
             title:"Digital-Library",
             img:"/proj/digitalLibrary.png",
             date:"20 FEV 2021",
