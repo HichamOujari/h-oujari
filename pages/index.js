@@ -54,6 +54,15 @@ export default function Home() {
             lien:"#",
             type:3,
             techno:"JAVA/Swing - MySQL"
+          },{
+            title:"Dekok-ster",
+            img:"/proj/dekokster.png",
+            date:"28 August 2021",
+            by:"Oujari Hicham",
+            description:"Is a web application for an Italian restaurant.",
+            lien:"https://dekokster.vercel.app/",
+            type:3,
+            techno:"NextJs/Springboot"
           },
           {
             title:"RandomChat V1.0 (In progress)",
@@ -104,11 +113,25 @@ export default function Home() {
             lien:"https://baitaille-navale.herokuapp.com/",
             type:1,
             techno:"PHP - JavaScript - MySQL"
+          },{
+            title:"Emi-Cedoc",
+            img:"/proj/emi.png",
+            date:"28 August 2021",
+            by:"Oujari Hicham",
+            description:"It is a platform for managing the registrations of doctoral students at the Mohammadia School of Engineering, and monitoring them throughout the training.",
+            lien:"https://cedoc-frontend.vercel.app/",
+            type:3,
+            techno:"ReactJs/ExpressJs"
           },
           
         ]
   const experiences = [
     {
+      entreprise:"Capitale-tech",
+      image:"./Experiences/capitaletech.png",
+      date:"July 2021",
+      desc:"I had 2 month of work as a mobile developer in Capitale-Tech using flutter/ORM Sequelize"
+    },{
       entreprise:"Phontom-tech",
       image:"./Experiences/phontom-tech.png",
       date:"JAN 2021",
@@ -141,6 +164,7 @@ export default function Home() {
     }
   ]
   const descriptions = ["Software Engineering.","Web developer.","Mobile developer.","Desktop Developer.","Graphic Designer."]
+  
   const contactMe = [
                   {
                     name:"Location",

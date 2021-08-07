@@ -93,7 +93,8 @@ nav>.NavUl>li:hover{
 }
 
 .header{
-  background-image: url("../Assets/HeaderBack.jpg");
+  background-image: url("/headerBack.jpg");
+  background-color: #45505b;
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 55px;
