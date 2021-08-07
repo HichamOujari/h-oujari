@@ -46,15 +46,6 @@ export default function Home() {
             type:1,
             techno:"NextJs/Strapi - MySQL"
           },{
-            title:"Digital-Library",
-            img:"/proj/digitalLibrary.png",
-            date:"20 FEV 2021",
-            by:"Group",
-            description:"it is a desktop application of an electronic library, allows to reserve, borrow, buy and deliver books.",
-            lien:"#",
-            type:3,
-            techno:"JAVA/Swing - MySQL"
-          },{
             title:"Dekok-ster",
             img:"/proj/dekokster.png",
             date:"28 August 2021",
@@ -63,56 +54,6 @@ export default function Home() {
             lien:"https://dekokster.vercel.app/",
             type:3,
             techno:"NextJs/Springboot"
-          },
-          {
-            title:"RandomChat V1.0 (In progress)",
-            img:"/proj/randomchat.png",
-            date:"20 JAN 2021",
-            by:"Oujari Hicham",
-            description:"RandomChat is an automated instant messaging website. It connects two users at random, anonymously and without any prior registration requirement.",
-            lien:"https://myrandchat.herokuapp.com/",
-            type:1,
-            techno:"ReactJs - Socket.IO - PeerJs"
-          },
-          {
-            title:"G-Advisor (Phontom-tech)",
-            img:"/proj/gadvisor.png",
-            date:"13 JAN 2021",
-            by:"Oujari Hicham",
-            description:"G-Advisor is a desktop inventory management application, for Phantom-Tech (traineeship).",
-            lien:"https://g-advisore.vercel.app/",
-            type:3,
-            techno:"ReactJs - ChartJs - MySQL - Springboot"
-          },
-          {
-                  title:"Short-TriQ V1.0",
-                  img:"/proj/shortTriq.png",
-                  date:"11 Sep 2020",
-                  by:"Oujari Hicham",
-                  description:"Web application offring the possibility to custom URL Shortener .",
-                  lien:"https://shorttriq.herokuapp.com/",
-                  type:1,
-                  techno:"ReactJs - MySQL"
-          },
-          {
-            title:"Digital Advisor",
-            img:"/proj/digitaladvisor.png",
-            date:"13 JUIN 2020",
-            by:"an internship group",
-            description:"Realization of a technical assumption platform and a showcase site(traineeship).",
-            lien:"https://digitaladvisor.co.ma/",
-            type:1,
-            techno:"HTML - CSS - JavaScript - MySQl"
-          },
-          {
-            title:"Baitaille Navale",
-            img:"/proj/navale.png",
-            date:"13 March 2019",
-            by:"Oujari Hicham",
-            description:"Baitaille Navale is a board game in which two players must place ships on a secret grid and attempt to “hit” the opposing ships. The winner is the one who manages to sink all of the opponent's ships.",
-            lien:"https://baitaille-navale.herokuapp.com/",
-            type:1,
-            techno:"PHP - JavaScript - MySQL"
           },{
             title:"Emi-Cedoc",
             img:"/proj/emi.png",
@@ -122,6 +63,60 @@ export default function Home() {
             lien:"https://cedoc-frontend.vercel.app/",
             type:3,
             techno:"ReactJs/ExpressJs"
+          },{
+            title:"G-Advisor (Phontom-tech)",
+            img:"/proj/gadvisor.png",
+            date:"13 JAN 2021",
+            by:"Oujari Hicham",
+            description:"G-Advisor is a desktop inventory management application, for Phantom-Tech (traineeship).",
+            lien:"https://g-advisore.vercel.app/",
+            type:3,
+            techno:"ReactJs - ChartJs - MySQL - Springboot"
+          },{
+            title:"Digital Advisor",
+            img:"/proj/digitaladvisor.png",
+            date:"13 JUIN 2020",
+            by:"an internship group",
+            description:"Realization of a technical assumption platform and a showcase site(traineeship).",
+            lien:"https://digitaladvisor.co.ma/",
+            type:1,
+            techno:"HTML - CSS - JavaScript - MySQl"
+          },{
+            title:"Short-TriQ V1.0",
+            img:"/proj/shortTriq.png",
+            date:"11 Sep 2020",
+            by:"Oujari Hicham",
+            description:"Web application offring the possibility to custom URL Shortener .",
+            lien:"https://shorttriq.herokuapp.com/",
+            type:1,
+            techno:"ReactJs - MySQL"
+          },{
+            title:"RandomChat V1.0 (In progress)",
+            img:"/proj/randomchat.png",
+            date:"20 JAN 2021",
+            by:"Oujari Hicham",
+            description:"RandomChat is an automated instant messaging website. It connects two users at random, anonymously and without any prior registration requirement.",
+            lien:"https://myrandchat.herokuapp.com/",
+            type:1,
+            techno:"ReactJs - Socket.IO - PeerJs"
+          },{
+            title:"Baitaille Navale",
+            img:"/proj/navale.png",
+            date:"13 March 2019",
+            by:"Oujari Hicham",
+            description:"Baitaille Navale is a board game in which two players must place ships on a secret grid and attempt to “hit” the opposing ships. The winner is the one who manages to sink all of the opponent's ships.",
+            lien:"https://baitaille-navale.herokuapp.com/",
+            type:1,
+            techno:"PHP - JavaScript - MySQL"
+          },{
+            title:"Digital-Library",
+            img:"/proj/digitalLibrary.png",
+            date:"20 FEV 2021",
+            by:"Group",
+            description:"it is a desktop application of an electronic library, allows to reserve, borrow, buy and deliver books.",
+            lien:"#",
+            type:3,
+            techno:"JAVA/Swing - MySQL"
           },
           
         ]
