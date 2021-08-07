@@ -52,7 +52,7 @@ export default function Home() {
             by:"Oujari Hicham",
             description:"Is a web application for an Italian restaurant.",
             lien:"https://dekokster.vercel.app/",
-            type:3,
+            type:1,
             techno:"NextJs/Springboot"
           },{
             title:"Emi-Cedoc",
@@ -61,7 +61,7 @@ export default function Home() {
             by:"Oujari Hicham",
             description:"It is a platform for managing the registrations of doctoral students at the Mohammadia School of Engineering, and monitoring them throughout the training.",
             lien:"https://cedoc-frontend.vercel.app/",
-            type:3,
+            type:1,
             techno:"ReactJs/ExpressJs"
           },{
             title:"G-Advisor (Phontom-tech)",
