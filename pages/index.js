@@ -64,6 +64,15 @@ export default function Home() {
             type:1,
             techno:"ReactJs/ExpressJs"
           },{
+            title:"Flash-Food",
+            img:"/proj/logoFlashFood.png",
+            date:"28 August 2021",
+            by:"Oujari Hicham",
+            description:"The app for all your needs: Looking for a way to order food and drink without leaving your home? Want to find the perfect restaurant with the push of a button? Now all your needs are met with the mobile application!",
+            lien:"https://www.figma.com/file/cGe8yR9S09ebsRh8WzHQNz/Celero-UI?node-id=0%3A1",
+            type:2,
+            techno:"Flutter/ExpressJs/ORM Sequelize"
+          },{
             title:"G-Advisor (Phontom-tech)",
             img:"/proj/gadvisor.png",
             date:"13 JAN 2021",
