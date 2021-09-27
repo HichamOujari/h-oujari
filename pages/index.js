@@ -82,6 +82,15 @@ export default function Home() {
             type:3,
             techno:"ReactJs - ChartJs - MySQL - Springboot"
           },{
+            title:"Puzzle Game (Android/Ios)",
+            img:"/proj/puzzle.jpg",
+            date:"05 SEPT 2021",
+            by:"Oujari Hicham",
+            description:"A thinking video game, puzzle game, or puzzle game, is a genre of video game that focuses on thinking. These kind of games lead the player to solve puzzles (such as those of Sokoban).",
+            lien:"https://g-advisore.vercel.app/",
+            type:2,
+            techno:"Flutter "
+          },{
             title:"Digital Advisor",
             img:"/proj/digitaladvisor.png",
             date:"13 JUIN 2020",
