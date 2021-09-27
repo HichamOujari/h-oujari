@@ -15,8 +15,8 @@ import RoomIcon from '@material-ui/icons/Room';
 
 export default function Home() {
   const skills = [
-        {name:"HTML",val:100},
-        {name:"CSS", val:90},
+        {name:"HTML / CSS",val:90},
+        {name:"FLUTTER", val:82},
         {name:"JAVASCRIPT", val:76 },
         {name:"PHP", val:80 },
         {name:"ExpressJs", val:70 },
