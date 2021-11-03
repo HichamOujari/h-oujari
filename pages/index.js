@@ -19,7 +19,7 @@ export default function Home() {
         {name:"FLUTTER", val:82},
         {name:"JAVASCRIPT", val:76 },
         {name:"PHP", val:80 },
-        {name:"ExpressJs", val:70 },
+        {name:"ExpressJs / Sequelize orm", val:86 },
         {name:"ReactJS/NextJS", val:85 },
         {name:"React-Native/Expo", val:80 },
         {name:"SprinBoot", val:84 },
