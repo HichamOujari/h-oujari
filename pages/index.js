@@ -13,6 +13,9 @@ import MailIcon from '@material-ui/icons/Mail';
 import CallIcon from '@material-ui/icons/Call';
 import RoomIcon from '@material-ui/icons/Room';
 
+
+import Body from '@material-ui/'
+
 export default function Home() {
   const skills = [
         {name:"HTML / CSS",val:90},
