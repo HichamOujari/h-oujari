@@ -1,9 +1,4 @@
 import Head from 'next/head'
-
-
-import Html from 'next/html';
-
-
 import Nav from "../components/nav"
 import Header from "../components/header"
 import About from "../components/about"
@@ -17,9 +12,6 @@ import Resume from "../components/resume"
 import MailIcon from '@material-ui/icons/Mail';
 import CallIcon from '@material-ui/icons/Call';
 import RoomIcon from '@material-ui/icons/Room';
-
-
-import Body from '@material-ui/'
 
 export default function Home() {
   const skills = [
