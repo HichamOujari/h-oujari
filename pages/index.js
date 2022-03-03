@@ -1,4 +1,9 @@
 import Head from 'next/head'
+
+
+import Html from 'next/html';
+
+
 import Nav from "../components/nav"
 import Header from "../components/header"
 import About from "../components/about"
