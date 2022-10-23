@@ -219,6 +219,7 @@ export default function Home() {
       <Project data = {projects}/>
       <Contact data={contactMe}/>
       <Footer data={SocialMedia}/>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4568689678572615" crossorigin="anonymous"></script>
     </div>
   )
 }
