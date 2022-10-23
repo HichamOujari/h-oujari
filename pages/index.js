@@ -209,6 +209,7 @@ export default function Home() {
         <link rel="canonical" href="https://h-oujari.vercel.app/"/>
         <meta name="keywords" content="hicham, oujari, hichamouja, hicham o'j, o'j" />
         <meta name="author" content="Oujari Hicham"/>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4568689678572615" crossorigin="anonymous"></script>
       </Head>
       <Nav/>
       <Header data={descriptions}/>
@@ -219,7 +220,6 @@ export default function Home() {
       <Project data = {projects}/>
       <Contact data={contactMe}/>
       <Footer data={SocialMedia}/>
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4568689678572615" crossorigin="anonymous"></script>
     </div>
   )
 }
