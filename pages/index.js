@@ -59,6 +59,15 @@ export default function Home() {
             type:1,
             techno:"NextJs/Springboot"
           },{
+            title:"Slide Share Scrapper",
+            img:"https://play-lh.googleusercontent.com/LSrWGCjy5pFvE0--hL_AiZ5CKVIZ3PM2h3ais2VwaLc9urbMKUvSgoM1Y6KoYb3GSg",
+            date:"28 August 2022",
+            by:"Oujari Hicham",
+            description:"Is a web application for scrapping document from slideShare for free.",
+            lien:"slide-share.herokuapp.com/",
+            type:1,
+            techno:"PHP"
+          },{
             title:"Emi-Cedoc",
             img:"/proj/emi.png",
             date:"28 August 2021",
