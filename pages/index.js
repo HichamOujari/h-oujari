@@ -64,7 +64,7 @@ export default function Home() {
             date:"28 August 2022",
             by:"Oujari Hicham",
             description:"Is a web application for scrapping document from slideShare for free.",
-            lien:"slide-share.herokuapp.com/",
+            lien:"https://slide-share.herokuapp.com/",
             type:1,
             techno:"PHP"
           },{
