@@ -163,6 +163,18 @@ export default function Home() {
   ]
   const experiences = [
     {
+      entreprise: "IZI-Systems",
+      image: "./Experiences/izi.jpeg",
+      date: "Sep 2022",
+      desc: "Start working as software development engineer in Izi-systems"
+    }
+    ,{
+      entreprise: "IZI-Systems",
+      image: "./Experiences/izi.jpeg",
+      date: "Fev 2022",
+      desc: "I had 6 month internship as a software development engineer in Izi-systems using ReactJs/NestJs/TypeOrm/AWS and other cloud Service"
+    },
+    {
       entreprise: "Capitale-tech",
       image: "./Experiences/capitaletech.png",
       date: "July 2021",
