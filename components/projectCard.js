@@ -9,7 +9,9 @@ export default class ProjectCard extends Component {
             <img className="IMGProject" src={this.props.data.img} />
             <div className="whenHover">
                 <LaunchIcon className="icon"/>
-                <Link href={this.props.data.lien}>Show Demo version</Link>
+                <Link href={
+                  '#'//this.props.data.lien
+                }>Show Demo version</Link>
             </div>
           </div>
           <div className="DetailProject">
