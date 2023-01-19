@@ -181,6 +181,11 @@ export default function Home() {
   ]
   const resumes = [
     {
+      title: "Izi Systems",
+      periode: "2022 - now",
+      specialite: "software development engineer",
+      duree: "Currently - Remote"
+    },{
       title: "Mohammadia School of Engineers",
       periode: "2019-2022",
       specialite: "Computer science engineering",
